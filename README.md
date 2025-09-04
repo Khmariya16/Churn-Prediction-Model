@@ -68,3 +68,58 @@ streamlit run streamlit_app.py
 
 ```
 Then open the app in your browser at http://localhost:8501
+
+
+## 📂 Project Structure
+```
+Churn/
+│── Data.csv                     # Dataset
+│── project.ipynb                # Jupyter notebook with EDA & model training
+│── streamlit_app.py              # Streamlit web app
+│── telco_churn_pipeline.joblib   # Saved ML pipeline
+│── requirements.txt              # Dependencies
+│── README.md                     # Project documentation
+
+```
+
+
+## 📸 Demo
+<img width="1464" height="877" alt="Screenshot 2025-09-03 at 10 03 44 AM" src="https://github.com/user-attachments/assets/5797270d-2660-4d70-90f9-231ef50ef627" />
+
+
+## ✅ Results
+- Logistic Regression achieved ~80% accuracy.
+
+- Decision Tree provided interpretability with feature importance.
+
+- Streamlit app allows business users to input customer details and instantly get churn probability.
+
+
+## 📌 Future Improvements
+- Try advanced models (Random Forest, XGBoost, Gradient Boosting).
+
+- Hyperparameter tuning for better accuracy.
+
+- Integrate with a real-time telecom CRM system.
+
+
+---
+
+## ⚡Pro Tip: Add a **`requirements.txt`** file for easy setup:
+
+```txt
+streamlit
+pandas
+scikit-learn
+matplotlib
+joblib
+```
+
+
+## 👩‍💻 Author
+Mariya Khan
+B.Tech in Computer Science | Data Analyst & ML Enthusiast
+
+📧 Contact: mariyak9122@gmail.com
+
+🔗 LinkedIn: https://www.linkedin.com/in/mariyakhan16/
